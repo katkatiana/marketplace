@@ -1,6 +1,5 @@
 //IMPORT SECTION
-import {token} from "./token.js";
-import { url, jsonArray, fetchProducts } from "./utils.js";
+import { token, url, jsonArray, fetchProducts } from "./utils.js";
 
 
 //FUNCTIONS SECTION
