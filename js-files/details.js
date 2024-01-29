@@ -2,6 +2,8 @@
 import { token } from "./token.js";
 import { url, jsonArray, fetchProducts } from  "./utils.js";
 
+
+//FUNCTIONS SECTION
 const showProductDetails = function(inputProduct) {
     const detailPage = document.querySelector(".detailed");
     detailPage.innerHTML += `<h3>${inputProduct.name}</h3>
@@ -17,5 +19,6 @@ const fetchDetails = async function() {
         showProductDetails(jsonArray);
 }
 
+//EXECUTION SECTION
 fetchDetails() 
 
