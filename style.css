@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+/*****************    FORM       ********************/
+.submit-info{
+    color: rgb(6, 155, 6);
+}
+
+.added-info{
+    color: gray;
+}
+
+.every-detail  {
+    margin: 5vh;
+}
+
+#form-button, #get, #go-back {
+    margin: 2vh;
+}
+
+/*****************    FRONTPAGE       ********************/
+.frontpage {
+    background: linear-gradient(45deg, rgb(181, 180, 180), rgb(157, 227, 250));
+}
+
+.navbar {
+    box-shadow: 0px -4px 11px 7px rgba(0, 0, 0, 0.07);
+}
+
+.card {
+    margin: 5px;
+    aspect-ratio: 1/0.8;
+}
+
+.card-img-top {
+    height: 100%; 
+    object-fit: contain;
+}
+
+.card-body {
+    height: 80%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*****************    DETAILS       ********************/
+.detailed{
+    margin-block-start: 10px;
+}
